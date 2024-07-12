@@ -1,0 +1,159 @@
+#cajaActividad{
+    background-color: rgba(15, 15, 15, 0);
+        border-radius: 20px;
+
+    
+  
+    }
+    
+    #cajaTareas{
+        background-color: rgba(255, 255, 255, 0);  
+    }
+
+    .mi-video {
+        width: 80%; 
+        height: auto; 
+        box-shadow: 0px 8px 31px -4px rgba(0,0,0,0.57);
+        -webkit-box-shadow: 0px 8px 31px -4px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 8px 31px -4px rgba(0,0,0,0.57);        
+    }
+
+    .circulo{
+        background-color: rgb(62, 62, 62);
+        border-radius: 100vh;
+        width: 10vh;
+        height: 10vh;
+        display: grid;
+        place-items: center;
+        margin-left: 25%;
+        transition: 0.5s;
+    }
+    
+ 
+    
+
+    .circulo.activo{
+        background-color: rgb(59, 170, 159);
+    }
+
+
+    @media (min-width: 300px) {
+        #cajaTareas{
+            height: 15vh;
+            margin-top: 7vh;
+           }
+           #cajaActividad{
+            height: 35vh;
+            margin-bottom: 10vh;
+           }
+
+           .mi-video{
+            margin-top: 1vh;
+            width: 95%;
+           }
+
+           .circulo{
+            width: 7vh;
+            height: 7vh;
+
+           }
+      
+      }
+      
+      @media (min-width: 550px) {
+       #cajaTareas{
+        height: 15vh;
+        margin-top: 8vh;
+        
+
+       }
+        #cajaActividad{
+            height: 50vh;
+            margin-bottom: 3vh;
+
+         
+           }
+
+           .mi-video{
+            margin-top: 1vh;
+            width: 80%;
+            transition: all 1s;
+           }
+
+           .circulo{
+            width: 9vh;
+            height: 9vh;
+
+           }
+
+        
+    }
+      
+      
+      
+      @media (min-width: 700px) {
+       
+        #cajaTareas{
+            height: 15vh;
+            margin-top: 0vh;
+            padding-top: 10vh;
+           
+           }
+      
+           #cajaActividad{
+            height: 55vh;
+            margin-bottom: 0vh;
+            
+         
+           }
+
+           .mi-video{
+            margin-top: 8vh;
+            width: 75%;
+           }
+
+           .circulo{
+            width: 9vh;
+            height: 9vh;
+
+           }
+    }
+      
+      
+      @media (min-width: 992px) {
+        #cajaTareas{
+            height: 70vh;
+            padding-left: 20vh;
+           }
+
+           #cajaActividad{
+            height: 70vh;
+            padding-right: 10vh;
+           }
+
+           .mi-video{
+            margin-top: 13vh;
+            width: 80%;
+           }
+    }
+
+
+    @media (min-width: 1380px) {
+ 
+           .mi-video{
+            margin-top: 6vh;
+            width: 80%;
+           }
+
+           #cajaActividad{
+            padding-top: 5vh;
+            padding-right: 20vh;
+           }
+
+           #cajaTareas{
+            padding-top: 12vh;
+            padding-left: 25vh;
+           }
+    }
+      
+      

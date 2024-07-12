@@ -1,0 +1,21 @@
+[
+    {
+        "username":"Sara Isabel Osorio",
+        "password":"1234",
+        "course":"C1",
+        "lesson":"3"
+    },
+    {
+        "username":"Sebastian Osorio Alcaraz",
+        "password":"4321",
+        "course":"B2",
+        "lesson":"2"
+    },
+    {
+        "username":"Edgar Osorio Osorio",
+        "password":"4321",
+        "course":"A2",
+        "lesson":"2"
+    }
+
+]

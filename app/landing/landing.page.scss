@@ -1,0 +1,59 @@
+
+#cajaBanner {
+    background-color: rgb(51, 51, 51);
+    display: grid;
+    place-content: center;
+    align-items: center;
+  }
+
+  #cajaLogin{
+    background-color: rgb(79, 78, 78);
+    height: 90vh;
+  
+    }
+    
+
+  @media (min-width: 300px) {
+    #cajaBanner {
+      height: 40vh; /* Altura para xs y superiores */
+    }
+    #cajaLogin{
+        height: 55vh;
+        padding-top: 3vh;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    #cajaBanner {
+      height: 40vh; /* Altura para sm y superiores */
+    
+    }
+
+    #cajaLogin{
+        height: 55vh;
+        padding-top: 3vh;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    #cajaBanner {
+      height: 42vh; /* Altura para md y superiores */
+    }
+    #cajaLogin{
+        height: 51vh;
+    }
+    
+  }
+  
+  @media (min-width: 992px) {
+    #cajaBanner {
+      height: 92vh; /* Altura para lg y superiores */
+    }
+
+    #cajaLogin{
+        height: 92vh;
+        padding-top: 25vh;
+    }
+  }
+  
+

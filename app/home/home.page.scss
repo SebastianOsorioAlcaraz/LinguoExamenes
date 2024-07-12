@@ -1,0 +1,44 @@
+#cajaHome{
+  background-color: rgb(24, 24, 24);
+  border-radius: 20px;
+  padding-top: 5vh;
+  margin-top: 6vh;
+}
+
+
+
+
+  #avatar{
+    height: 15vh;
+    width: 15vh;
+    border-radius: 80px;
+  }
+  
+  @media (min-width: 300px) {
+
+
+  
+  }
+  
+  @media (min-width: 576px) {
+   
+  }
+  
+  @media (min-width: 768px) {
+    #cajaHome{
+      
+    margin-top: 7vh;
+  }
+  #avatar{
+    
+  }
+
+}
+  
+  
+  @media (min-width: 992px) {
+    #avatar{
+     
+    }
+  }
+

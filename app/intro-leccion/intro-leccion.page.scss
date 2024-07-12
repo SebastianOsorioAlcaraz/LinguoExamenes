@@ -1,0 +1,56 @@
+#cajaBarraHorizontalTareas{
+    background-color: rgb(31, 31, 31);
+    padding-top: 10vh;    
+    border-radius: 20px;
+  }px
+
+#extras{
+  width: 25vh;
+  background-color: rgb(47, 47, 47);
+  }
+
+.cajaExtras{
+  border-radius: 20px;
+  background-color  : rgb(58, 58, 58);
+  height: 30vh;
+  margin-bottom: 10px;
+  padding-top: 6vh;
+  transition: 0.5s;
+}
+
+
+.cajaExtras:hover{
+  background-color: #757575;
+}
+
+  @media (min-width: 300px) {
+
+    #cajaBarraHorizontalTareas{
+      height: 95vh;
+    }
+  
+  }
+  
+  @media (min-width: 576px) {
+   
+    #cajaBarraHorizontalTareas{
+      height: 85vh;
+    }
+  
+  }
+  
+  @media (min-width: 768px) {
+
+    #cajaBarraHorizontalTareas{
+      height: 83vh;
+    }
+  
+}
+  
+  
+  @media (min-width: 992px) {
+  #extras{
+    padding-top: 22vh;
+    margin-top: -18vh;
+  }
+  }

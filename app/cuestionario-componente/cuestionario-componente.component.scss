@@ -1,0 +1,21 @@
+#cajaPreguntas{
+    padding-left: 10vh;
+    
+}
+
+:host {
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 80vh;
+}
+
+#caja{
+    background-color: rgb(26, 26, 26);
+    border-radius: 20px;
+    padding-left: 8vh;
+    padding-right: 8vh;
+    -webkit-box-shadow: -5px 7px 70px -40px rgba(0,0,0,0.61);
+-moz-box-shadow: -5px 7px 70px -40px rgba(0,0,0,0.61);
+box-shadow: -5px 7px 70px -40px rgba(0,0,0,0.61);
+}

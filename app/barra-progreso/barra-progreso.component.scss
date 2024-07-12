@@ -1,0 +1,18 @@
+/* Style for the progress bar container */
+.progress-container {
+    width: 100%;
+    background-color: #ddd;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the progress inside the container */
+.progress-bar {
+    height: 20px;
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 5px;
+}
